@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    position: absolute;
+    z-index: 2;
+    padding: 1vw;
+}
+
+.header__container{
+    display: flex;
+    font-weight: bold;
+}
+.header__container__logo{
+    width: 9vw;
+    font-size: x-large;
+}
+.header__container__links{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    gap: 5rem;
+    font-size: large;
+}
+.header__container__links__link{
+    transition: all ease-in-out .2s;
+}
+.header__container__links__link:hover{
+    cursor: pointer;
+    color:#AB96FF;
+}
